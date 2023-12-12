@@ -1,0 +1,149 @@
+body {
+
+    background-image: url(pexels-jose-francisco-fernandez-saura-8020242.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+
+/* @font-face {
+    font-family: font cabecalho;
+    src: url('fonts/Courier\ New\ Bold\ Italic\ font.ttf')format('truetype');
+} */
+/* --------------------------------------------------------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.fontPS {
+    background-blend-mode: multiply;
+    opacity: 0.8;
+}
+/* -------------------------------------------------------------------------------------------------- */
+.cabecalho {
+    background-color: black;
+}
+
+.cabecalho h3 {
+    font-size: 30px;
+    letter-spacing: 0.5px;
+
+
+}
+
+.cabecalho .button {
+    border: none;
+    background-color: transparent;
+    border: none;
+    color: rgb(159, 159, 159);
+
+
+}
+
+.cabecalho .button:hover {
+    transform: translateY(-2px);
+    transition: 0.2s;
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+/* ============================================================================ */
+.cadastro {
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 0.1px solid rgba(255, 255, 255, 0.098);
+    background-color: rgba(17, 17, 17, 0.231);
+    backdrop-filter: blur(4px);
+
+}
+
+.cadastro placeholder {
+    color: rgba(255, 255, 255, 0.742);
+
+}
+
+.cadastro input {
+    box-shadow: none;
+    outline: none;
+    background: transparent !important;
+    border: none;
+    border-bottom: 1px solid rgb(136, 136, 136);
+    border-radius: 0px;
+    color: rgba(180, 180, 180, 0.742);
+
+}
+
+.cadastro input:hover {
+    outline: none !important;
+    outline-style: none;
+    box-shadow: none;
+    border-color: transparent;
+    transform: 1s;
+    border-bottom: 1px solid rgb(197, 197, 197);
+    color: rgba(224, 224, 224, 0.742);
+}
+
+.cadastro input:focus {
+    outline: none !important;
+    outline-style: none;
+    box-shadow: none;
+    border-color: transparent;
+    transform: 1s;
+    border-bottom: 2px solid rgb(197, 197, 197);
+    color: rgba(224, 224, 224, 0.742);
+}
+
+.cadastro select {
+    box-shadow: none;
+    outline: none;
+    background: transparent !important;
+    border: none;
+    border-bottom: 1px solid rgb(136, 136, 136);
+    border-radius: 0px;
+    color: rgba(180, 180, 180, 0.742);
+}
+
+.cadastro select:hover {
+    outline: none !important;
+    outline-style: none;
+    box-shadow: none;
+    border-color: transparent;
+    transform: 1s;
+    border-bottom: 1px solid rgb(197, 197, 197);
+    box-shadow: 2px white;
+    color: rgba(224, 224, 224, 0.742);
+}
+
+.cadastro select:focus {
+    outline: none !important;
+    outline-style: none;
+    box-shadow: none;
+    border-color: transparent;
+    transform: 1s;
+    border-bottom: 2px solid rgb(197, 197, 197);
+    box-shadow: 2px white;
+    color: rgba(224, 224, 224, 0.742);
+}
+
+.opt_style {
+    box-shadow: none;
+    outline: none;
+    background-color: black;
+    border: none;
+    color: rgba(180, 180, 180, 0.742);
+}
+
+.opt_style:hover {
+
+    background-color: rgb(185, 185, 185);
+
+
+    color: rgba(0, 0, 0, 0.742);
+}
+
+.blur {
+    background-color: rgba(17, 17, 17, 0.231);
+    backdrop-filter: blur(4px);
+}
+
+/* --------------------------------------------------------------------------------------- */
